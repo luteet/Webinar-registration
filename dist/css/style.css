@@ -2,6 +2,10 @@ body,html {
     -webkit-text-size-adjust: 100%
 }
 
+.index,.index__image--body,sub,sup {
+    position: relative
+}
+
 button,hr,input {
     overflow: visible
 }
@@ -16,10 +20,6 @@ progress,sub,sup {
 
 .index,body {
     flex-direction: column
-}
-
-.index,.index__image--body,sub,sup {
-    position: relative
 }
 
 * {
@@ -246,6 +246,10 @@ body {
     font-family: var(--title-font)
 }
 
+.index__title,.main-title,.section-title,.title {
+    font-weight: 700
+}
+
 body._active,body._popup-active {
     overflow: hidden
 }
@@ -278,18 +282,12 @@ body._active,body._popup-active {
 }
 
 .main-title {
-    font-weight: 700;
     line-height: 115%;
     font-size: 1.875rem
 }
 
 .title {
-    font-weight: 700;
     font-size: 1.125rem
-}
-
-.section-title {
-    font-weight: 700
 }
 
 .txt-center {
@@ -358,10 +356,10 @@ body._active,body._popup-active {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 0 0 100px;
     flex: 1 1 auto;
     max-width: 1120px;
-    margin: 0 auto
+    margin: 0 auto;
+    padding: 0 0 100px
 }
 
 .index__image {
@@ -393,7 +391,6 @@ body._active,body._popup-active {
 .index__title {
     font-size: 1.625rem;
     line-height: 110%;
-    font-weight: 700;
     text-transform: uppercase;
     margin: 0
 }
