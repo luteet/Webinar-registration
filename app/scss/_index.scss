@@ -14,8 +14,9 @@
         width: 225%; aspect-ratio: 1/1;
         min-width: 3000px;
         border-radius: 50%;
-        background: var(--accent);
         z-index: -1;
+        background: var(--accent);
+        
 
         @include _768 {
             transform: translate(-50%,-5.25%);
@@ -75,15 +76,17 @@
             }
 
             
-            & img {
-                margin-right: 10px;
-                width: 30px; height: 30px;
-                object-fit: contain;
-            }
+            
 
             & mark {
                 background: transparent;
                 color: var(--accent-2);
+            }
+
+            & img {
+                margin-right: 10px;
+                width: 30px; height: 30px;
+                object-fit: contain;
             }
         }
     }
