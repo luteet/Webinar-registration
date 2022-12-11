@@ -1,0 +1,47 @@
+
+.main-title {
+    font-family: var(--title-font);
+    font-weight: 700;
+    line-height: 115%;
+
+    font-size: 1.875rem;
+
+    @include _768 {
+        font-size: 2.5rem;
+    }
+
+    @include _992 {
+        font-size: 3.125rem;
+    }
+}
+
+.title {
+    
+    font-family: var(--title-font);
+    font-weight: 700;
+
+    font-size: 1.125rem;
+
+    @include _768 {
+        font-size: 1.5rem;
+    }
+
+    @include _992 {
+        font-size: 1.875rem;
+    }
+    
+    &._min {
+
+    }
+}
+
+.section-title {
+
+    font-family: var(--title-font);
+    font-weight: 700;
+
+}
+
+.txt-center {
+    text-align: center;
+}

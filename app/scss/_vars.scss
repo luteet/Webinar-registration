@@ -1,0 +1,28 @@
+
+
+$containerPadding: 15;
+
+$container: 1240 + ($containerPadding * 2);
+$containerMin: 1120 + ($containerPadding * 2);
+$containerLarge: 1560 + ($containerPadding * 2);
+
+:root {
+    --title-font: 'SFUIDisplay';
+    --main-font: 'SFUIDisplay';
+    
+    --accent: #3d81ee;
+    --accent-2: #ffba42;
+
+    --white: #FFF;
+    --black: #000;
+
+    --container-padding: 15px;
+}
+
+@font-face {
+    @include font-include('SFUIDisplay', 300, swap, normal, 'SFUIDisplay-Light');
+}
+
+@font-face {
+    @include font-include('SFUIDisplay', 700, swap, normal, 'SFUIDisplay-Bold');
+}
