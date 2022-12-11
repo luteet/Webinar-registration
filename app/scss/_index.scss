@@ -97,12 +97,14 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-
+        
+        padding: 0px 0 100px 0;
+        
         flex: 1 1 auto;
         max-width: 1120px;
         margin: 0 auto;
 
-        padding: 0px 0 100px 0;
+        
 
         @media (min-width: 550px) {
             padding: 50px 0 100px 0;
